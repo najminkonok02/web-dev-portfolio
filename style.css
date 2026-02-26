@@ -5,15 +5,23 @@
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
+}
+header{
+    height: 580px;
+    width: 100%;
+    background-image: url(images/developer 2.png);
+    background-repeat: no-repeat;
+
+
 }
 header >nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 50px;
+    margin: 20px 150px;
 }
-h3{
+.konok{
     font-size: 45px;
     font-weight: 800;
 }
@@ -34,12 +42,32 @@ li > a{
 span{
     color: rgb(254, 93, 0);
 }
-button{
+.btn{
     background-color: rgb(254, 93, 0);
     border-radius: 5px;
     border: none;
-    height: 40px;
-    width: 100px;
     color: white;
-    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+.banner-content{
+    height: 340px;
+    width: 585px;
+    margin-left: 150px ;
+}
+.greetings{
+    font-size: 30px;
+    font-weight: 600;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.picture{
+    width: 350px;
+    margin-left: 80px;
 }
